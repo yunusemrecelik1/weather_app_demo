@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1043609191427",
+    "project_id": "accuweather-36bde",
+    "storage_bucket": "accuweather-36bde.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1043609191427:android:4357b5f328fba13d1f3a36",
+        "android_client_info": {
+          "package_name": "com.example.weather_app_demo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1043609191427-e5v9qg7aavjipafuga9ug7o84vjpvb3o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA13fM9GmwUp0q__vydzVj8w2ZokLTWohU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1043609191427-e5v9qg7aavjipafuga9ug7o84vjpvb3o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
