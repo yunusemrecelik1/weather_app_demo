@@ -35,33 +35,3 @@ class FirebaseNetworkManager extends IFirebaseNetworkManager {
   }
 }
 
-/*
-class Test{
-  Future<void> loginService(LoginModel model) async {
-    final FirebaseAuth auth = FirebaseAuth.instance;
-    try {
-      UserCredential userCredential = await auth.createUserWithEmailAndPassword(
-        email: model.email ?? "",
-        password: model.password ?? "",
-      );
-      //print(userCredential.user.email)
-    } on FirebaseAuthException catch (e) {
-      if (e.code == 'email-already-in-use') {
-        print('The account already exists for that email.');
-      }
-    } catch (e) {
-      print(e);
-    }
-    //return null;
-  }
-
-  Future<void> registerService(RegisterModel model) async {
-    final FirebaseAuth auth = FirebaseAuth.instance;
-    final result = await auth.createUserWithEmailAndPassword(
-      email: model.email ?? "",
-      password: model.password ?? "",
-    );
-    print(result.user);
-  }
-}
- */

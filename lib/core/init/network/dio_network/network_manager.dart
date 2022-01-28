@@ -18,7 +18,6 @@ class NetworkManager {
   NetworkManager._init() {
     final baseOptions =
     BaseOptions(baseUrl: 'https://dataservice.accuweather.com/',headers: {
-      //HttpHeaders.authorizationHeader: 'YOUR KEY HERE',
       HttpHeaders.contentTypeHeader: 'application/json',
     });
     coreDio = CoreDio(baseOptions);

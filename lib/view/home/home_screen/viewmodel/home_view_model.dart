@@ -66,7 +66,7 @@ class HomeViewModel extends ChangeNotifier with BaseViewModel {
 
   Future<bool> _checkConnectivityState() async {
     final ConnectivityResult result = await Connectivity().checkConnectivity();
-    if (result != ConnectivityResult.wifi || result != ConnectivityResult.mobile) {
+    if (result != ConnectivityResult.wifi && result != ConnectivityResult.mobile) {
       return false;
     }
     else {
